@@ -22,6 +22,7 @@ GEM
       rack-protection (= 2.1.0)
       sinatra (= 2.1.0)
       tilt (~> 2.0)
+    sinatra-cross_origin (0.4.0)
     tilt (2.0.10)
 
 PLATFORMS
@@ -31,6 +32,7 @@ DEPENDENCIES
   puma
   sinatra
   sinatra-contrib
+  sinatra-cross_origin (~> 0.4.0)
 
 BUNDLED WITH
    2.2.24

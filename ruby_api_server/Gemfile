@@ -8,3 +8,4 @@ git_source(:github) { |repo_name| "https://github.com/#{repo_name}" }
 gem 'sinatra'
 gem 'sinatra-contrib'
 gem "puma"
+gem 'sinatra-cross_origin', '~> 0.4.0'
