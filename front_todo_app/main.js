@@ -6,6 +6,7 @@ const removeTask = removeButton => {
   const targetTask = removeButton.closest('li');
   addTaskTarget.removeChild(targetTask);
 };
+// axios 使う フロントから繋ぐ
 const addTask = task => {
   const listItem = document.createElement('li');
   const removeButton = document.createElement('button');
@@ -14,7 +15,12 @@ const addTask = task => {
   listItem.innerText = task;
   listItem.append(removeButton);
   addTaskTarget.appendChild(listItem);
+  
+  fetch('http://127.0.0.1:4567')
+  .then(response => response.json())
+  .then(data => console.log(data));
 };
+
 addTaskTrigger.addEventListener('click', event => {
   const task = addTaskValue.value;
   addTask(task);
