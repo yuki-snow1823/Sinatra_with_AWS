@@ -17,7 +17,6 @@ const addTask = task => {
   addTaskTarget.appendChild(listItem);
   
   fetch('http://127.0.0.1:4567')
-  .then(response => response.json())
   .then(data => console.log(data));
 };
 

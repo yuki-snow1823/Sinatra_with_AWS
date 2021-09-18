@@ -1,5 +1,5 @@
 ---
-pid: 86734
-control_url: unix:///var/folders/z6/28tlrtg55p775ffz2sz634900000gn/T/puma-status-1631108872156-86734
-control_auth_token: 918dc03d5347eb6ac1ffa36132d622b4
+pid: 16963
+control_url: unix:///var/folders/z6/28tlrtg55p775ffz2sz634900000gn/T/puma-status-1631974176620-16963
+control_auth_token: c4eabea00bf2e718031c5e04c2ef4499
 running_from: "/Users/yukihorikoshi/Desktop/studying/AWS/aws_study/ruby_api_server"
